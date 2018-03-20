@@ -8,15 +8,15 @@
 
 #import "ObjCColorSliderViewController.h"
 
-@interface ObjCColorSliderViewController ()
-
-@end
-
 @implementation ObjCColorSliderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.redSlider.value = 0.5;
+    self.greenSlider.value = 0.0;
+    self.blueSlider.value = 0.0;
+    self.alphaSlider.value = 1.0;
+    [self updateView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +24,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)sliderChanged:(id)sender {
+    //NSLog(@"Slider changed");
+    [self updateView];
 }
-*/
 
+- (void) updateView {
+    self.redLabel.text = [NSString stringWithFormat:@"%.2f", self.redSlider.value];
+    self.greenLabel.text = [NSString stringWithFormat:@"%.2f", self.greenSlider.value];
+    self.blueLabel.text = [NSString stringWithFormat:@"%.2f", self.redSlider.value];
+    self.alphaLabel.text = [NSString stringWithFormat:@"%.2f", self.alphaSlider.value];
+    
+    //TODO: update the self.colorView background color
+    self.colorView.backgroundColor = [[UIColor alloc] initWithRed:self.redSlider.value green:self.greenSlider.value blue:self.blueSlider.value alpha:self.alphaSlider.value];
+    
+    
+    
+}
 @end

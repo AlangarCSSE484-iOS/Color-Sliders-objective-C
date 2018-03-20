@@ -22,7 +22,7 @@
                                 <rect key="frame" x="8" y="25" width="261.5" height="31"/>
                                 <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="caB-M5-Fke"/>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="XKr-UK-t0d"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zA9-8Q-vjt">
@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="width" constant="257.5" id="Eq7-6d-cdt"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dNi-FO-w2X"/>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="1pV-pz-NTW"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfJ-EL-poa">
@@ -57,7 +57,7 @@
                                 <rect key="frame" x="8" y="166" width="261.5" height="31"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="A6X-M3-PV4"/>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oCA-Ki-78d"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruS-KQ-N4a">
@@ -70,7 +70,7 @@
                                 <rect key="frame" x="7" y="70" width="262" height="31"/>
                                 <color key="tintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Gmq-t9-y7x"/>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="1KA-vE-vzp"/>
                                 </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wis-x7-7te">
@@ -117,7 +117,6 @@
                         <outlet property="alphaLabel" destination="kfJ-EL-poa" id="Cj5-Kh-hTM"/>
                         <outlet property="alphaSlider" destination="968-oE-ApN" id="ifg-74-yeT"/>
                         <outlet property="blueLabel" destination="P9l-jt-V0D" id="dwG-Q6-Wgf"/>
-                        <outlet property="blueLable" destination="P9l-jt-V0D" id="iNG-8k-DaQ"/>
                         <outlet property="blueSlider" destination="zcb-F8-ogT" id="3Ep-by-KW9"/>
                         <outlet property="colorView" destination="wis-x7-7te" id="6Jj-8s-ZSs"/>
                         <outlet property="greenLabel" destination="zA9-8Q-vjt" id="ubg-op-Xbd"/>

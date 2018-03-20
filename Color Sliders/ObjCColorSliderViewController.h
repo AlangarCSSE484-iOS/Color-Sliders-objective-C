@@ -21,6 +21,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView* colorView;
 
+- (IBAction) sliderChanged:(id) sender;
 
 
 
