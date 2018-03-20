@@ -113,6 +113,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="alphaLabel" destination="kfJ-EL-poa" id="Cj5-Kh-hTM"/>
+                        <outlet property="alphaSlider" destination="968-oE-ApN" id="ifg-74-yeT"/>
+                        <outlet property="blueLabel" destination="P9l-jt-V0D" id="dwG-Q6-Wgf"/>
+                        <outlet property="blueLable" destination="P9l-jt-V0D" id="iNG-8k-DaQ"/>
+                        <outlet property="blueSlider" destination="zcb-F8-ogT" id="3Ep-by-KW9"/>
+                        <outlet property="colorView" destination="wis-x7-7te" id="6Jj-8s-ZSs"/>
+                        <outlet property="greenLabel" destination="zA9-8Q-vjt" id="ubg-op-Xbd"/>
+                        <outlet property="greenSlider" destination="BHc-TG-myG" id="weh-8K-Bd6"/>
+                        <outlet property="redLabel" destination="ruS-KQ-N4a" id="htB-fq-LAL"/>
+                        <outlet property="redSlider" destination="ulg-t0-44R" id="6JY-je-LTM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
